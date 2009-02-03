@@ -4,7 +4,7 @@ h1. How to install
 # Clone this repo using git
   	<pre>git clone git://github.com/logankoester/irbrc.git ~/projects/irbrc</pre>
 # Symlink the file to ~/.irbrc
-  	<pre>ln -s ~/projects/irbrc ~/.irbrc</pre>
+  	<pre>ln -s ~/projects/irbrc/irbrc ~/.irbrc</pre>
 # Run 'irb' and enjoy!
 
 These settings will also affect your script/console sessions in Rails
