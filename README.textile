@@ -1,0 +1,22 @@
+h1. How to install
+
+# Install the prerequisite ruby gems: "map_by_method":http://drnicutilities.rubyforge.org/map_by_method/, "wirble":http://pablotron.org/software/wirble/, "what_methods":http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html
+# Clone this repo using git
+  	<pre>git clone git://github.com/logankoester/irbrc.git ~/projects/irbrc</pre>
+# Symlink the file to ~/.irbrc
+  	<pre>ln -s ~/projects/irbrc ~/.irbrc</pre>
+# Run 'irb' and enjoy!
+
+These settings will also affect your script/console sessions in Rails
+
+h2. What it does
+* Sets a shorter prompt (">>")
+* Saves your command history between irb sessions
+* Adds color highlighting to your output
+* Type "clear" to clear the screen (or just "c")
+* Enables automatic indentation
+* Loads Rubygems for you
+* Loads "Dr Nic's":http://github.com/drnic "map_by_method":http://drnicutilities.rubyforge.org/map_by_method/
+* Loads "Dr Nic's":http://github.com/drnic "what_methods":http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html
+* Loads pp (pretty print)
+* Loads readline
