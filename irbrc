@@ -91,3 +91,6 @@ class Object
   end
 end
 
+# http://sketches.rubyforge.org/
+require 'sketches'
+Sketches.config :editor => 'gvim'

@@ -21,3 +21,4 @@ h2. What it does
 * Loads pp (pretty print)
 * Loads readline
 * Implements Object.pm, which pretty prints the methods of an object
+* Sketches - http://sketches.rubyforge.org/
