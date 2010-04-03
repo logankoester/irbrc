@@ -111,7 +111,7 @@ class Object
     max_name = data.collect {|item| item[0].size}.max
     max_args = data.collect {|item| item[1].size}.max
     data.each do |item| 
-      print " #{ANSI_BOLD}#{item[0].rjust(max_name)}#{ANSI_RESET}"
+      print " #{ANSI_BOLD}#{item[0].to_s.rjust(max_name)}#{ANSI_RESET}"
       print "#{ANSI_GRAY}#{item[1].ljust(max_args)}#{ANSI_RESET}"
       print "   #{ANSI_LGRAY}#{item[2]}#{ANSI_RESET}\n"
     end
@@ -121,4 +121,4 @@ end
 
 # http://sketches.rubyforge.org/
 require 'sketches'
-Sketches.config :editor => 'gvim'
+Sketches.config :editor => 'vim'
