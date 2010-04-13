@@ -14,6 +14,9 @@ require 'pp'
 # Awesome Print gem (gem install awesome_print)
 require 'ap'
 
+# Print information about any HTTP requests being made
+require 'net-http-spy'
+
 # Load the readline module.
 IRB.conf[:USE_READLINE] = true
 
