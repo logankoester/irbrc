@@ -17,6 +17,15 @@ require 'ap'
 # Print information about any HTTP requests being made
 require 'net-http-spy'
 
+# Draw ASCII tables
+require 'hirb'
+require 'hirb/import_object'
+Hirb.enable
+extend Hirb::Console
+
+# 'lp' to show method lookup path
+require 'looksee/shortcuts'
+
 # Load the readline module.
 IRB.conf[:USE_READLINE] = true
 
