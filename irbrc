@@ -134,3 +134,7 @@ end
 # http://sketches.rubyforge.org/
 require 'sketches'
 Sketches.config :editor => 'vim'
+
+# Bond (Bash-like tab completion)
+require 'bond'
+Bond.start
