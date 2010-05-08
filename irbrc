@@ -138,3 +138,8 @@ Sketches.config :editor => 'vim'
 # Bond (Bash-like tab completion)
 require 'bond'
 Bond.start
+
+# Quick way to run just a few specific lines from a file
+def eval_lines(fn, lines)
+  eval( File.readlines(fn)[lines].join)
+end
