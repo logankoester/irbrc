@@ -3,7 +3,7 @@ h1. How to install
 # Clone this repo using git
   	<pre>git clone git://github.com/logankoester/irbrc.git</pre>
 # Install the prerequisite ruby gems: 
-    (cd irbrc; rvm gemset import irbrc.gems)
+    <pre>(cd irbrc; rvm gemset import irbrc.gems)</pre>
 # Symlink the file to ~/.irbrc
   	<pre>ln -s ~/irbrc/irbrc ~/.irbrc</pre>
 # Run 'irb' and enjoy!
