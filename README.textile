@@ -1,10 +1,11 @@
 h1. How to install
 
-# Install the prerequisite ruby gems: "map_by_method":http://drnicutilities.rubyforge.org/map_by_method/, "wirble":http://pablotron.org/software/wirble/, "what_methods":http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html
 # Clone this repo using git
-  	<pre>git clone git://github.com/logankoester/irbrc.git ~/projects/irbrc</pre>
+  	<pre>git clone git://github.com/logankoester/irbrc.git</pre>
+# Install the prerequisite ruby gems: 
+    (cd irbrc; rvm gemset import irbrc.gems)
 # Symlink the file to ~/.irbrc
-  	<pre>ln -s ~/projects/irbrc/irbrc ~/.irbrc</pre>
+  	<pre>ln -s ~/irbrc/irbrc ~/.irbrc</pre>
 # Run 'irb' and enjoy!
 
 These settings will also affect your script/console sessions in Rails
