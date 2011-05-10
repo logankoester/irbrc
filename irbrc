@@ -1,9 +1,6 @@
 # Make gems available
 require 'rubygems'
 
-# http://drnicutilities.rubyforge.org/map_by_method/
-require 'map_by_method'
-
 # Dr Nic's gem inspired by
 # http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html
 require 'what_methods'
@@ -24,7 +21,7 @@ Hirb.enable
 extend Hirb::Console
 
 # 'lp' to show method lookup path
-require 'looksee/shortcuts'
+require 'looksee'
 
 # Load the readline module.
 IRB.conf[:USE_READLINE] = true

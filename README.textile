@@ -23,3 +23,5 @@ h2. What it does
 * Loads readline
 * Implements Object.pm, which pretty prints the methods of an object
 * Sketches - http://sketches.rubyforge.org/
+* Displays request information when calling remote services (net-http-spy)
+* Adds hirb for tabular pretty printing (http://tagaholic.me/2009/03/13/hirb-irb-on-the-good-stuff.html)
