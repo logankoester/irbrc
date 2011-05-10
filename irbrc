@@ -140,3 +140,10 @@ Bond.start
 def eval_lines(fn, lines)
   eval( File.readlines(fn)[lines].join)
 end
+
+class Object
+  def mymethods
+    methods-Object.methods
+ end 
+end
+
