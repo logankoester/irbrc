@@ -44,7 +44,7 @@ These settings will also affect your script/console sessions in Rails
 
 ... and a few lightweight tools to make IRB a bit friendlier:
 
-|Module|Description|Example|
+|*Module*|*Description*|*Example*|
 |------|-----------|-------|
 |BashLike|Make IRB feel more bash-like|`clear`, `cd`, `ls`, `pwd`, ...
 |EvalLines|Run a few specific lines from a file
