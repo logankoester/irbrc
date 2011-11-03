@@ -1,0 +1,7 @@
+*.swm
+*.swn
+*.swo
+*.swp
+*.orig
+tmp/
+.DS_Store
