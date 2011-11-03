@@ -20,17 +20,18 @@ Set up your symlinks
     ln -s boson/commands/common ~/.boson/commands/common
 
 Edit your Boson config (`~/.boson/config/boson.yml`)
-    ---
-    :command_aliases:
-      fast_load: fl
-      fast_reload: rl
-      fast_retry: rt
-      print_methods: pm
-    :console_defaults:
-      - bashlike
-      - fast_reload
-      - print_methods
-      - eval_lines
+
+      ---
+      :command_aliases:
+        fast_load: fl
+        fast_reload: rl
+        fast_retry: rt
+        print_methods: pm
+      :console_defaults:
+        - bashlike
+        - fast_reload
+        - print_methods
+        - eval_lines
 
 Run `irb` and enjoy!
 
