@@ -13,10 +13,12 @@ that they are always available.
 ## How to install
 
 Clone this repo using git
-  	git clone git://github.com/logankoester/irbrc.git
+
+    git clone git://github.com/logankoester/irbrc.git
 
 Set up your symlinks
-  	ln -s irbrc ~/.irbrc
+
+    ln -s irbrc ~/.irbrc
     ln -s boson/commands/common ~/.boson/commands/common
 
 Edit your Boson config (`~/.boson/config/boson.yml`)
