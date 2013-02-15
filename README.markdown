@@ -1,3 +1,7 @@
+
+
+*Warning: No longer maintained at this fork - I have found that [Pry](http://pryrepl.org/) works very well for me instead.*
+
 ## Requirements
 
 * RVM
